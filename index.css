@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+  }
+  
+  .form-inline{
+    display:flex;
+    width:50%;
+    gap:1rem;
+  }
+
+  .list-group {
+    gap:1rem;
+    padding: 1rem;
+  }
+  
+  .list-group-item {
+    display: grid;
+    grid-template-columns: 4fr 1fr 1fr;
+    padding:.5rem 1rem;
+    width: 50%;
+    align-items: center;
+  }
+
+  .list-group-item+.list-group-item {
+    border-top-width: 1px;
+  }
+  
+  .icon{
+    background-color:lightgray;
+    border-radius:50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding:.5rem;
+    margin:.5rem;
+    cursor:pointer;
+    height: 40px;
+    width: 40px;
+  }
+  
+  .uil-trash-alt {
+    background-color: tomato;
+    color:white;
+  }
+  
+  .task-input{
+    display:none;
+    align-self: center;
+  }
+  
+  .task-text {
+      align-self: center;
+  }
